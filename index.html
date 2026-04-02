@@ -8,32 +8,49 @@
   </head>
   <body>
     <main class="page">
-      <section class="game-card">
-        <p class="eyebrow">Browser Edition</p>
-        <h1>Крестики-нолики</h1>
-        <p class="subtitle">
-          Матч идет до трех побед. Ничья не приносит очков и сразу запускает новый раунд.
-        </p>
+      <section class="game-shell">
+        <div class="cabinet-glow"></div>
+        <section class="game-card">
+          <p class="eyebrow">Pixel Arena 3000</p>
+          <h1>Крестики-нолики</h1>
+          <p class="subtitle">
+            Матч идет до трех побед. Ничья не приносит очков и сразу запускает новый раунд.
+          </p>
 
-        <section class="scoreboard" aria-label="Счет матча">
-          <div class="score-box">
-            <span class="score-label">Игрок X</span>
-            <strong id="score-x">0</strong>
+          <section class="mode-picker" aria-label="Выбор режима игры">
+            <span class="mode-label">Выбор режима</span>
+            <div class="mode-buttons">
+              <button id="mode-human" type="button" class="mode-button active">2 игрока</button>
+              <button id="mode-bot" type="button" class="mode-button secondary">против CPU</button>
+            </div>
+          </section>
+
+          <section class="scoreboard" aria-label="Счет матча">
+            <div class="score-box">
+              <span class="score-label">Player X</span>
+              <strong id="score-x">0</strong>
+            </div>
+            <div class="score-box">
+              <span class="score-label">Player O</span>
+              <strong id="score-o">0</strong>
+            </div>
+          </section>
+
+          <div class="sound-row">
+            <button id="toggle-sound" type="button" class="sound-toggle">Звук: ON</button>
           </div>
-          <div class="score-box">
-            <span class="score-label">Игрок O</span>
-            <strong id="score-o">0</strong>
+
+          <p id="status" class="status">Ход игрока X</p>
+
+          <section class="board-frame">
+            <section class="board" id="board" aria-label="Игровое поле"></section>
+          </section>
+
+          <div class="actions">
+            <button id="reset-round" type="button">Новый раунд</button>
+            <button id="reset-match" type="button" class="secondary">Сбросить матч</button>
           </div>
         </section>
-
-        <p id="status" class="status">Ход игрока X</p>
-
-        <section class="board" id="board" aria-label="Игровое поле"></section>
-
-        <div class="actions">
-          <button id="reset-round" type="button">Сбросить раунд</button>
-          <button id="reset-match" type="button" class="secondary">Сбросить матч</button>
-        </div>
       </section>
     </main>
 
