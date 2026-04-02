@@ -1,0 +1,72 @@
+<svg width="1280" height="820" viewBox="0 0 1280 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="640" y1="0" x2="640" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F083D"/>
+      <stop offset="0.55" stop-color="#120224"/>
+      <stop offset="1" stop-color="#06010D"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="355" y1="120" x2="925" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B1133"/>
+      <stop offset="1" stop-color="#10081F"/>
+    </linearGradient>
+    <filter id="glow" x="260" y="40" width="760" height="720" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="820" fill="url(#bg)"/>
+  <g opacity="0.45">
+    <rect x="0" y="0" width="1280" height="820" fill="url(#bg)"/>
+    <path d="M0 0H1280V820H0V0Z" fill="url(#bg)"/>
+  </g>
+  <g filter="url(#glow)" opacity="0.55">
+    <rect x="332" y="110" width="616" height="618" fill="#FF4FD8"/>
+  </g>
+  <rect x="355" y="90" width="570" height="620" fill="url(#panel)" stroke="#46F0F9" stroke-width="4"/>
+  <text x="395" y="138" fill="#FFE45C" font-family="Courier New, monospace" font-size="18" letter-spacing="4">PIXEL ARENA 3000</text>
+  <text x="395" y="192" fill="#F7F1FF" font-family="Courier New, monospace" font-size="48" font-weight="700">КРЕСТИКИ-НОЛИКИ</text>
+  <text x="395" y="230" fill="#B7A8D9" font-family="Courier New, monospace" font-size="20">Матч идет до трех побед. Ничья запускает новый раунд.</text>
+
+  <text x="395" y="282" fill="#FFE45C" font-family="Courier New, monospace" font-size="18">ВЫБОР РЕЖИМА</text>
+  <rect x="395" y="300" width="248" height="56" fill="#FF4FD8" stroke="#FFE45C" stroke-width="3"/>
+  <text x="473" y="336" fill="#16071F" font-family="Courier New, monospace" font-size="20" font-weight="700">2 ИГРОКА</text>
+  <rect x="657" y="300" width="248" height="56" fill="#0B0716" stroke="#46F0F9" stroke-width="3"/>
+  <text x="727" y="336" fill="#46F0F9" font-family="Courier New, monospace" font-size="20" font-weight="700">ПРОТИВ CPU</text>
+
+  <rect x="395" y="378" width="248" height="88" fill="#130A26" stroke="#46F0F9" stroke-width="3"/>
+  <rect x="657" y="378" width="248" height="88" fill="#130A26" stroke="#46F0F9" stroke-width="3"/>
+  <text x="425" y="412" fill="#B7A8D9" font-family="Courier New, monospace" font-size="18">PLAYER X</text>
+  <text x="770" y="412" fill="#B7A8D9" font-family="Courier New, monospace" font-size="18">PLAYER O</text>
+  <text x="505" y="450" fill="#FFE45C" font-family="Courier New, monospace" font-size="42" font-weight="700">1</text>
+  <text x="785" y="450" fill="#FFE45C" font-family="Courier New, monospace" font-size="42" font-weight="700">0</text>
+
+  <rect x="764" y="482" width="141" height="44" fill="#0B0716" stroke="#46F0F9" stroke-width="3"/>
+  <text x="792" y="510" fill="#46F0F9" font-family="Courier New, monospace" font-size="18" font-weight="700">ЗВУК: ON</text>
+
+  <rect x="395" y="482" width="510" height="58" fill="#261033" stroke="#FF4FD8" stroke-width="3"/>
+  <text x="550" y="519" fill="#F7F1FF" font-family="Courier New, monospace" font-size="22" font-weight="700">ХОД ИГРОКА X</text>
+
+  <rect x="452" y="566" width="376" height="376" transform="translate(0 -10)" fill="#1B0C22" stroke="#FFE45C" stroke-width="4"/>
+  <g stroke="#46F0F9" stroke-width="3">
+    <rect x="474" y="578" width="102" height="102" fill="#0D0719"/>
+    <rect x="589" y="578" width="102" height="102" fill="#0D0719"/>
+    <rect x="704" y="578" width="102" height="102" fill="#0D0719"/>
+    <rect x="474" y="693" width="102" height="102" fill="#0D0719"/>
+    <rect x="589" y="693" width="102" height="102" fill="#0D0719"/>
+    <rect x="704" y="693" width="102" height="102" fill="#0D0719"/>
+    <rect x="474" y="808" width="102" height="102" fill="#0D0719" transform="translate(0 -130)"/>
+    <rect x="589" y="808" width="102" height="102" fill="#0D0719" transform="translate(0 -130)"/>
+    <rect x="704" y="808" width="102" height="102" fill="#0D0719" transform="translate(0 -130)"/>
+  </g>
+  <g fill="#46F0F9" font-family="Courier New, monospace" font-size="68" font-weight="700">
+    <text x="507" y="649">X</text>
+    <text x="621" y="649">O</text>
+    <text x="735" y="649">X</text>
+    <text x="507" y="764">O</text>
+    <text x="621" y="764">X</text>
+  </g>
+
+  <rect x="395" y="698" width="248" height="56" fill="#FF4FD8" stroke="#FFE45C" stroke-width="3"/>
+  <text x="445" y="734" fill="#16071F" font-family="Courier New, monospace" font-size="20" font-weight="700">НОВЫЙ РАУНД</text>
+  <rect x="657" y="698" width="248" height="56" fill="#46F0F9" stroke="#FFE45C" stroke-width="3"/>
+  <text x="698" y="734" fill="#061219" font-family="Courier New, monospace" font-size="20" font-weight="700">СБРОСИТЬ МАТЧ</text>
+</svg>
